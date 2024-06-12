@@ -1,5 +1,5 @@
 format:
-  treefmt --fail-on-changes
+  treefmt --fail-on-change
 
 format-fix:
   treefmt
