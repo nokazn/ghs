@@ -1,4 +1,15 @@
 {
   "name": "@github-stargazer/rss",
-  "private": true
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy --minify src/index.tsx",
+    "dev": "wrangler dev src/index.tsx"
+  },
+  "dependencies": {
+    "hono": "^4.4.5"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240529.0",
+    "wrangler": "^3.57.2"
+  }
 }
